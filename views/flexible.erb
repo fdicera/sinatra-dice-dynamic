@@ -1,0 +1,11 @@
+<%= params %>
+
+<h1><%= @number_of_dice %>d<%= @die_nums %></h1>
+
+<ul>
+  <% @rolls.each do |a_roll| %>
+    <li>
+      <%= a_roll %>
+    </li>
+  <% end %>
+</ul>
